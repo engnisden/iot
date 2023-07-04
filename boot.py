@@ -8,8 +8,8 @@ redLed = Pin(4, Pin.OUT)
 
 nice_time = 0.1 #time between blinks
 
-SSID = "Rainbownet"
-SSID_PASSWORD = "eidvig1518"
+SSID = ""
+SSID_PASSWORD = ""
 
 def do_connect():
     sta_if = network.WLAN(network.STA_IF)
