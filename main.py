@@ -6,8 +6,8 @@ from umqttsimple import MQTTClient
 CLIENT_ID = ubinascii.hexlify(machine.unique_id()) #To create an MQTT client, we need to get the PICOW unique ID
 MQTT_BROKER = "io.adafruit.com" # MQTT broker IP address or DNS  
 PORT = 1883
-ADAFRUIT_USERNAME = "twero"
-ADAFRUIT_PASSWORD = "aio_FtXu89rRKISPfUL3atROPlKwAE8P" 
+ADAFRUIT_USERNAME = ""
+ADAFRUIT_PASSWORD = "" 
 
 #Feeds (topics)
 topicCelsiusIn = b"twero/feeds/pico-w-dam.celsius-in" #inside measuring box, same sensor as humidity
